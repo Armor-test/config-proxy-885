@@ -1,0 +1,37 @@
+# CODEOWNERS file for config-proxy-885
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-reporting @Armor-test/grp-storage @Armor-test/dept-release
+
+# Directory ownership
+/tools/ @Armor-test/dept-ui @Armor-test/grp-storage
+/shared/ @Armor-test/team-research @Armor-test/grp-reporting @Armor-test/team-reporting
+/src/ @Armor-test/dept-api @Armor-test/squad-frontend @Armor-test/team-logging
+/db/ @Armor-test/dept-identity @Armor-test/grp-ui @Armor-test/dept-api
+/hooks/ @Armor-test/squad-database @Armor-test/grp-api @Armor-test/grp-search
+/static/ @Armor-test/dept-security @Armor-test/team-security @Armor-test/unit-devops
+/pages/ @Armor-test/squad-reporting @Armor-test/squad-cloud
+/views/ @Armor-test/unit-test @Armor-test/dept-billing @Armor-test/squad-ml
+/security/ @Armor-test/unit-devops @Armor-test/dept-api
+/test/ @Armor-test/team-research @Armor-test/unit-devops
+
+# File type ownership
+*.xml @Armor-test/team-reporting @Armor-test/team-core @Armor-test/squad-research
+*.json @Armor-test/dept-api @Armor-test/dept-reporting @Armor-test/squad-mobile
+*.lock @Armor-test/squad-ml @Armor-test/grp-ui @Armor-test/unit-test
+*.html @Armor-test/unit-test @Armor-test/squad-mobile @Armor-test/dept-data
+*.ts @Armor-test/grp-integration @Armor-test/dept-automation @Armor-test/dept-release
+*.yaml @Armor-test/dept-ui @Armor-test/squad-mobile @Armor-test/squad-product
+*.graphql @Armor-test/team-notifications @Armor-test/squad-cloud @Armor-test/squad-cache
+*.jsx @Armor-test/dept-logging @Armor-test/grp-storage @Armor-test/squad-cloud
+*.md @Armor-test/team-logging @Armor-test/dept-automation @Armor-test/squad-mobile
+*.scss @Armor-test/unit-governance @Armor-test/squad-mobile @Armor-test/squad-ux
+*.cpp @Armor-test/dept-reliability @Armor-test/squad-cache
+*.php @Armor-test/unit-design @Armor-test/squad-research @Armor-test/dept-billing
+*.tsx @Armor-test/grp-ui @Armor-test/unit-test @Armor-test/grp-api
+*.css @Armor-test/squad-ux @Armor-test/squad-search
+*.java @Armor-test/dept-test @Armor-test/squad-ml @Armor-test/unit-governance
+
+# Security and special files
+package.json @Armor-test/dependency-team @Armor-test/security
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+Dockerfile @Armor-test/devops @Armor-test/infra
